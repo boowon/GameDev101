@@ -83,5 +83,11 @@ body{
 /*section2*/
 .sectwo{
     background-image: url("bg2.png");
-    height: 635px;
+    height: 630px;
+}
+
+/*footer*/
+footer{
+    background: linear-gradient(rgb(0, 0, 0),rgb(32, 144, 215));
+    height: 640px;
 }

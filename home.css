@@ -84,12 +84,24 @@ body{
 .sectwo{
     background-image: url("bg2.png");
     height: 630px;
+
+}
+.empty{
+    height: 266px;
+}
+.cours1{
+    height: 333.8796691894531px;
+    width: 774.9998779296875px;
+    background-color: #FFFFFF;
+    box-shadow: 10px 15px 0px 0px rgb(154, 163, 169);
+    border-radius: 0px 30px;
+    margin-left: 186px;
 }
 
 /*footer*/
 footer{
     background: linear-gradient(rgb(0, 0, 0)30%,rgb(32, 144, 215));
-    height: 640px;
+    height: 720px;
 }
 .cont{
     width: 574px;
@@ -114,4 +126,91 @@ footer{
     font-weight: 400;
     font-size: 11px;
     line-height: 30px;
+}
+.inputs{
+    padding-top: 115px;
+    margin: 59px;
+    width: 375px ;
+}
+label{
+    display: block;
+    margin: 0.5rem 0;
+}
+.info{
+    width:371px ;
+    height:30px ;
+    border-radius: 10px;
+    border: 0px;
+    font-family: PressStart2P;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 13px;
+}
+.msg{
+    width: 355px;
+    height: 229px;
+    border-radius: 10px;
+    border: 0px;
+    padding-left: 15px;
+    padding-top: 12px;
+    font-family: PressStart2P;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 13px;
+}
+input::placeholder{
+    color: black;
+    padding-left: 15px;
+}
+.send{
+    width: 370px;
+    height: 30px;
+    border-radius: 40px;
+    background-color: rgba(217, 217, 217, 1);
+    font-family: PressStart2P ;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 13px;
+    border-width: 0px;
+    
+}
+.send:hover{
+    box-shadow: 0px 0px 20px 0px black;
+}
+.contactinfo .infos{
+    display: inline-block;
+}
+.infos{
+    width: 33%;
+}
+.infoextra .infoext{
+    display: inline-block;
+}
+.infoext{
+    width: 50%;
+    margin-top: 65px;
+}
+.infoext h1{
+    font-family: PressStart2P;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    color: #FFFFFF;
+}
+.infoext p{
+    font-family: PressStart2P;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 11px;
+    color: #FFFFFF;
+}
+.infoextra img{
+    width: 58px;
+}
+.infos .msgicon{
+    height: 132px;
+    margin-bottom: 120px;
+    margin-left: 50px ;
 }

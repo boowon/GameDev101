@@ -2,6 +2,15 @@
   <head>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
     <style>
+      @font-face{
+        font-family: Public Pixel;
+        src: url(PublicPixel.ttf);
+    }
+    
+    @font-face{
+        font-family: PressStart2P;
+        src: url(PressStart2P.ttf);
+    }
       .instructor {
         display: flex;
         align-items: center;
@@ -50,6 +59,9 @@
         margin-right: 20px;
         text-decoration: none;
         font-family: 'Public Sans', sans-serif;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 13px;
       }
       .search-container {
         display: flex;
@@ -60,6 +72,10 @@
         border: none;
         font-size: 16px;
         margin-right: 10px;
+      }
+      .search-input::placeholder{
+        color: black;
+        padding-left: 15px;
       }
 
   body {
@@ -81,17 +97,19 @@ p{
           <img src="logo.png" alt="Logo">
         </div>
         <div class="search-container" style="width: 430px; height: 40px;">
-          <input type="text" class="search-input" placeholder="Search" style="width: 80%; height: 100%;">
+          <input type="text" class="search-input" placeholder="Search" style="width: 80%; height: 100%; border-radius: 15px;">
           <span style="margin-left: 10px; height: 100%;">
             <i class="fas fa-search" style="line-height: 40px;"></i>
           </span>
         </div>
         <div class="links">
-          <a href="#" style="margin-right: 0.5cm; text-decoration: none; font-family: 'Public Pixel', sans-serif;">Accueil</a>
+          <a href="index.html" style="margin-right: 0.5cm; text-decoration: none; font-family: 'Public Pixel', sans-serif;">Home</a>
           <a href="#" style="margin-right: 0.5cm; text-decoration:
-none; font-family: 'Public Pixel', sans-serif;">À propos</a>
-<a href="#" style="margin-right: 0.5cm; text-decoration: none; font-family: 'Public Pixel', sans-serif;">Cours en direct</a>
-<a href="#" style="text-decoration: none; font-family: 'Public Pixel', sans-serif;">Contact</a>
+none; font-family: 'Public Pixel', sans-serif;">Courses</a>
+<a href="#" style="margin-right: 0.5cm; text-decoration: none; font-family: 'Public Pixel', sans-serif;">Agenda</a>
+<a href="#" style="margin-right: 0.5cm; text-decoration: none; font-family: 'Public Pixel', sans-serif;">FAQ</a>
+<a href="#" style="margin-right: 0.5cm; text-decoration: none; font-family: 'Public Pixel', sans-serif;">Quiz</a>
+<a href="index.html#fin" style="text-decoration: none; font-family: 'Public Pixel', sans-serif;">Contact</a>
 </div>
 </nav>
 <div class="course-title">

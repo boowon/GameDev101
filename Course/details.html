@@ -1,0 +1,170 @@
+<html>
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+      integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp"
+      crossorigin="anonymous"
+    />
+    <style>
+      @font-face {
+        font-family: "public pixel";
+        src: url("../fonts/PublicPixel.ttf") format("truetype");
+
+        font-style: normal;
+      }
+      .instructor {
+        display: flex;
+        align-items: center;
+        margin: 50px 0;
+      }
+      .instructor img {
+        width: 300px;
+        height: 300px;
+        /*border-radius: 50%;*/
+      }
+      .instructor h2 {
+        margin-bottom: 20px;
+        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+        text-align: center;
+        color: #d1cdcd;
+      }
+      .course-title {
+        text-align: center;
+        margin-top: 78px;
+        font-size: 18px;
+        font-family: "Public pixel";
+        color: rgb(247, 250, 79);
+      }
+      .course-info {
+        width: 80%;
+        margin: 50px auto;
+        text-align: center;
+      }
+      .date-time {
+        text-align: center;
+        margin: 50px 0;
+      }
+      .join-link {
+        text-align: center;
+      }
+      .navbar {
+        left: 0px;
+        top: 0px;
+
+        background: #1a2144;
+        position: fixed;
+        width: 100%;
+        height: 70px;
+        display: flex;
+        align-items: center;
+        gap: 51px;
+      }
+      .searchbar {
+        font-family: "public pixel";
+        font-size: 12px;
+        line-height: 16px;
+        width: 415px;
+        height: 40px;
+        border-radius: 15px;
+        padding-left: 15px;
+      }
+      .headbar {
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 13px;
+        font-family: "public pixel";
+        color: #ffffff;
+        display: flex;
+        gap: 32px;
+      }
+      .navtitle:hover {
+        color: #ffde17;
+      }
+
+      body {
+        background-image: url("Group 79.png");
+        background-size: cover;
+        margin: 0;
+      }
+      p {
+        font-size: large;
+        color: rgb(207, 207, 189);
+      }
+    </style>
+  </head>
+  <body class="body">
+    <nav class="navbar">
+      <img
+        src="../logo.png"
+        alt="logo"
+        style="height: 60px; aspect-ratio: 2.32; margin-left: 30px"
+      />
+      <input type="text" value="Search" class="searchbar" />
+      <div class="headbar">
+        <a href="../Home/home.html" class="navtitle">Home</a>
+        <a href="../Courses/courses.html" class="navtitle">Courses</a>
+        <a href="../Home/home.html" class="navtitle">Contact</a>
+      </div>
+    </nav>
+    <div class="course-title">
+      <h1>Introduction to Unity</h1>
+    </div>
+    <div class="instructor">
+      <img
+        src="instructor.png"
+        alt="Instructor"
+        style="width: 160px; height: 129px"
+      />
+      <h2>
+        Welcome to this course on Unity . <br />
+        In this course, we will explore the world of game development using
+        Unity, one of the most popular game engines in the industry.<br />
+        Unity is a cross-platform game engine that allows developers to create
+        2D and 3D games and interactive experiences for multiple platforms
+        including mobile, desktop, web, and virtual reality.<br />
+        By the end of this course, you will have a solid understanding of Unity
+        , and you will be able to create your own interactive web-based games
+        and applications. So, let's get started!.
+      </h2>
+    </div>
+    <div class="course-info">
+      <p>
+        4:30PM
+        <svg
+          width="39"
+          height="39"
+          viewBox="0 0 39 39"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M19.5 34.5C27.75 34.5 34.5 27.75 34.5 19.5C34.5 11.25 27.75 4.5 19.5 4.5C11.25 4.5 4.5 11.25 4.5 19.5C4.5 27.75 11.25 34.5 19.5 34.5ZM19.5 0.75C29.8125 0.75 38.25 9.1875 38.25 19.5C38.25 29.8125 29.8125 38.25 19.5 38.25C9.1875 38.25 0.75 29.8125 0.75 19.5C0.75 9.1875 9.1875 0.75 19.5 0.75ZM20.4375 10.125V21.375H10.125V18.5625H17.625V10.125H20.4375Z"
+            fill="#FFDE17"
+          />
+        </svg>
+      </p>
+    </div>
+
+    <div class="date-time">
+      <p>
+        20 FEB 2023
+        <svg
+          width="35"
+          height="39"
+          viewBox="0 0 35 39"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M8.125 17.75H17.5V27.125H8.125M30.625 34.625H4.375V14H30.625M30.625 4.625H28.75V0.875H25V4.625H10V0.875H6.25V4.625H4.375C3.38044 4.625 2.42661 5.02009 1.72335 5.72335C1.02009 6.42661 0.625 7.38044 0.625 8.375V34.625C0.625 35.6196 1.02009 36.5734 1.72335 37.2766C2.42661 37.9799 3.38044 38.375 4.375 38.375H30.625C31.6196 38.375 32.5734 37.9799 33.2766 37.2766C33.9799 36.5734 34.375 35.6196 34.375 34.625V8.375C34.375 7.38044 33.9799 6.42661 33.2766 5.72335C32.5734 5.02009 31.6196 4.625 30.625 4.625Z"
+            fill="#FFDE17"
+          />
+        </svg>
+      </p>
+    </div>
+    <div class="join-link">
+      <a href="#">Rejoindre le cours en direct</a>
+    </div>
+  </body>
+</html>

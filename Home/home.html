@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>GameDev101</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="home.css" />
+  </head>
+  <body>
+    <main>
+      <section class="secone">
+        <nav class="navbar">
+          <img
+            src="../logo.png"
+            alt="logo"
+            style="height: 60px; aspect-ratio: 2.32; margin-left: 30px"
+          />
+          <input type="text" value="Search" class="searchbar" />
+          <div class="headbar">
+            <a href="home.html" class="navtitle">Home</a>
+            <a href="../Courses/courses.html" class="navtitle">Courses</a>
+            <a href="home.html" class="navtitle">Contact</a>
+          </div>
+        </nav>
+        <div class="mainbody">
+          <article class="item">
+            <img
+              class="gamedev"
+              src="Logo (transparent bg).png"
+              alt="GameDevLogo"
+            />
+            <p class="start">
+              Are you ready to begin your adventure into Game Development ?
+            </p>
+          </article>
+          <article>
+            <img class="ship" src="Space Ship.gif" alt="Ship" />
+          </article>
+        </div>
+        <button onclick="window.location.href='#sectwo'" class="startbot">
+          GET STARTED
+        </button>
+      </section>
+      <section id="sectwo" class="sectwo">
+        <div class="empty"></div>
+        <div class="cours1">
+          <div class="card"></div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="cont">
+        <h1 class="contcat">Contact Us:</h1>
+        <p class="contacttext">
+          We are always happy to offer advice and further information so if you
+          have any questions, complete the form below and a member of the team
+          will be in touch very soon.
+        </p>
+      </div>
+      <div class="contactinfo">
+        <div class="infos">
+          <div class="inputs">
+            <label>
+              <input
+                class="info"
+                type="text"
+                placeholder="Full Name"
+                minlength="3"
+                required
+              />
+            </label>
+            <label>
+              <input
+                class="info"
+                type="email"
+                placeholder="Email"
+                minlength="3"
+                required
+              />
+            </label>
+            <label>
+              <textarea class="msg" rows="10" cols="40">Your message</textarea>
+            </label>
+            <label>
+              <input class="send" type="submit" value="Send" />
+            </label>
+          </div>
+        </div>
+        <div class="infos">
+          <img class="msgicon" src="msg.png" alt="message" />
+        </div>
+        <div class="infos">
+          <div class="infoextra">
+            <img class="infoext" src="msg2.png" alt="message" />
+            <div class="infoext">
+              <h1>Email</h1>
+              <p>gdg.algiers@esi.dz</p>
+            </div>
+          </div>
+          <div class="infoextra">
+            <img class="infoext" src="pos.png" alt="pos" />
+            <div class="infoext">
+              <h1>Address</h1>
+              <p>BP 68M Oued SmarEl Herrach Algiers16309 Algeria</p>
+            </div>
+          </div>
+          aspect 2.32
+          <div class="infoextra">
+            <img class="infoext" src="phone.png" alt="phone" />
+            <div class="infoext">
+              <h1>Phone number</h1>
+              <p>+213 557 44 90 99</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
